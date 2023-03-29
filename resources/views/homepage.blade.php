@@ -9,7 +9,7 @@ Homepage
   <div class="row row-cols-4">
      @foreach ($movies as $movie)
     <div class="thumbs img-fluid d-flex flex-column">
-      <div class="card mt-auto" style="width: 18rem;">
+      <div class="card mt-auto" style="width: 18rem; ">
         {{-- <img src="<img class=" src="{{ Vite::asset('resources/img/godFather.jpg') }}" class="card-img-top" alt="..."> --}}
         <div class="card-body">
           <h5 class="card-title">{{ strtoupper($movie->title) }}</h5>
